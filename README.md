@@ -21,6 +21,7 @@ Key:value:
 
 ![Error_1](https://github.com/user-attachments/assets/c1f7ed3c-89f3-44b6-8d64-3d77174debe9)
      
-   - для ресурса random_password, random_string_FAKE не задекларирована
+   - объекта с типом "random_password" и уиникальным именем "random_string_FAKE" не декларировался
 
+5.
 
