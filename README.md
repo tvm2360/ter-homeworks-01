@@ -134,6 +134,23 @@ resource "docker_container" "mysql" {
 
 ![MySQL_ENV](https://github.com/user-attachments/assets/8d2e78cc-399d-4168-80ae-27509a9a6efb)
 
+## Задание 3
+
+.terraformrc:
+```terraform
+provider_installation {
+  network_mirror {
+    url = "https://terraform-mirror.yandexcloud.net/"
+    include = ["registry.opentofu.org/*/*"]
+  }
+  direct {
+    exclude = ["registry.opentofu.org/*/*"]
+  }
+}
+```
+![OpenTofu_init](https://github.com/user-attachments/assets/0bf14c9f-2c8c-4c40-8645-62cc50f5bb7f)
+
+![OpenTofu_apply](https://github.com/user-attachments/assets/cb704e2d-3092-4bde-909d-f2389d820722)
 
 
 
