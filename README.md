@@ -148,9 +148,11 @@ provider_installation {
   }
 }
 ```
+tofu init:
+
 ![OpenTofu_init](https://github.com/user-attachments/assets/0bf14c9f-2c8c-4c40-8645-62cc50f5bb7f)
 
+tofu apply:
+
 ![OpenTofu_apply](https://github.com/user-attachments/assets/cb704e2d-3092-4bde-909d-f2389d820722)
-
-
 
