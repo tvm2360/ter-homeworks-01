@@ -34,12 +34,9 @@ terraform {
       version = "~> 3.0.1"
     }
   }
-  required_version = ">=1.8.4" /*Многострочный комментарий.
- Требуемая версия terraform */
+  required_version = ">=1.8.4"
 }
 provider "docker" {}
-
-#однострочный комментарий
 
 resource "random_password" "random_string" {
   length      = 16
