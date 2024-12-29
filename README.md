@@ -75,6 +75,10 @@ resource "docker_container" "nginx" {
 
 ![state_after_destroy](https://github.com/user-attachments/assets/092c78e6-e453-4d7b-87b5-ba6cc64982d1)
 
+8. keep_locally:
+
+![Docker_image](https://github.com/user-attachments/assets/b089224b-28ad-4c52-9c17-8381ba75ab41)
+
 
 
 
