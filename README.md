@@ -13,9 +13,14 @@ Key:value:
 ![Result](https://github.com/user-attachments/assets/bc7a1e06-f47b-4d00-914a-9beee420a31a)
 
 4. Ошибки:
+   
+![Error](https://github.com/user-attachments/assets/7fae13a0-c09b-46fc-bf43-da998c903875)
+
    - для типа объекта "docker_image" отсутствует его уникальное имя
    - для типа объекта "docker_container" его уникальное имя должно начинаться с буквы или символа подчёркивания и содержать только буквы, цифры, символы подчёркивания и тире
-   - после исправления первых двух ошибок, следующая итеррация ошибок:
-     -- для ресурса random_password, random_string_FAKE не задекларирована
+
+![Error_1](https://github.com/user-attachments/assets/c1f7ed3c-89f3-44b6-8d64-3d77174debe9)
+     
+   - для ресурса random_password, random_string_FAKE не задекларирована
 
 
