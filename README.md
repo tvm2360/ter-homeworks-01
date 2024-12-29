@@ -75,9 +75,13 @@ resource "docker_container" "nginx" {
 
 ![state_after_destroy](https://github.com/user-attachments/assets/092c78e6-e453-4d7b-87b5-ba6cc64982d1)
 
-8. keep_locally:
+8. Параметр "keep_locally":
 
 ![Docker_image](https://github.com/user-attachments/assets/b089224b-28ad-4c52-9c17-8381ba75ab41)
+
+![Keep_locally](https://github.com/user-attachments/assets/6c000e13-9698-4186-9402-26b35daa0929)
+
+Если значение равно true, то образ Docker не будет удалён при операции уничтожения. Если значение равно false, то при операции уничтожения образ будет удалён из локального хранилища Docker.
 
 
 
