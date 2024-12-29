@@ -71,4 +71,11 @@ resource "docker_container" "nginx" {
 
 ![Docker_ps_1](https://github.com/user-attachments/assets/4c679032-269f-4418-b790-6dd39533c19f)
 
+7. State после terraform destoy:
+
+![state_after_destroy](https://github.com/user-attachments/assets/092c78e6-e453-4d7b-87b5-ba6cc64982d1)
+
+
+
+
 
