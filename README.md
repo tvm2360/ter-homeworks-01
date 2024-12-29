@@ -4,7 +4,7 @@
 
 ## Задание 1
 2. Допустимое хранение в personal.auto.tfvars
-3. Sensisitve data:
+3. Sensitive data:
  
 ![Sensitive](https://github.com/user-attachments/assets/70ee80dd-7591-4e35-a723-8fb915a40ce2)
 
@@ -63,3 +63,5 @@ resource "docker_container" "nginx" {
   }
 }
 ```
+![Docker_ps](https://github.com/user-attachments/assets/8b1013dd-b91d-4153-82c9-45b41434a305)
+
